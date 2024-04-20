@@ -4,6 +4,189 @@
     "C:\\Users\\yakup\\Desktop\\avm\\avm.webui\\avm.webui.csproj": {}
   },
   "projects": {
+    "C:\\Users\\yakup\\Desktop\\avm\\avm.business\\avm.business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yakup\\Desktop\\avm\\avm.business\\avm.business.csproj",
+        "projectName": "avm.business",
+        "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.business\\avm.business.csproj",
+        "packagesPath": "C:\\Users\\yakup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yakup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj": {
+                "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj"
+              },
+              "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj": {
+                "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj",
+        "projectName": "avm.data",
+        "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj",
+        "packagesPath": "C:\\Users\\yakup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yakup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj": {
+                "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkcore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkcore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj",
+        "projectName": "avm.entity",
+        "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj",
+        "packagesPath": "C:\\Users\\yakup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yakup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\yakup\\Desktop\\avm\\avm.webui\\avm.webui.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,8 +209,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\yakup\\Desktop\\avm\\avm.business\\avm.business.csproj": {
+                "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.business\\avm.business.csproj"
+              },
+              "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj": {
+                "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj"
+              },
+              "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj": {
+                "projectPath": "C:\\Users\\yakup\\Desktop\\avm\\avm.entity\\avm.entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,7 +230,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Iyzipay": {
               "target": "Package",
@@ -73,17 +264,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.29, 3.1.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +276,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     }

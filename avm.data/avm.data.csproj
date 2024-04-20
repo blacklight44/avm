@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\avm.entity\shopapp.entity.csproj" />
+    <ProjectReference Include="..\avm.entity\avm.entity.csproj" />
   </ItemGroup>
 
   <ItemGroup>

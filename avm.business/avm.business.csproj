@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\avm.entity\shopapp.entity.csproj" />
-    <ProjectReference Include="..\avm.data\shopapp.data.csproj" />
+    <ProjectReference Include="..\avm.entity\avm.entity.csproj" />
+    <ProjectReference Include="..\avm.data\avm.data.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>

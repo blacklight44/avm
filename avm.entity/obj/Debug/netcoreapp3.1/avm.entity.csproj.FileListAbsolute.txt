@@ -1,0 +1,9 @@
+C:\Users\yakup\Desktop\avm\avm.entity\bin\Debug\netcoreapp3.1\avm.entity.deps.json
+C:\Users\yakup\Desktop\avm\avm.entity\bin\Debug\netcoreapp3.1\avm.entity.dll
+C:\Users\yakup\Desktop\avm\avm.entity\bin\Debug\netcoreapp3.1\avm.entity.pdb
+C:\Users\yakup\Desktop\avm\avm.entity\obj\Debug\netcoreapp3.1\avm.entity.csprojAssemblyReference.cache
+C:\Users\yakup\Desktop\avm\avm.entity\obj\Debug\netcoreapp3.1\avm.entity.AssemblyInfoInputs.cache
+C:\Users\yakup\Desktop\avm\avm.entity\obj\Debug\netcoreapp3.1\avm.entity.AssemblyInfo.cs
+C:\Users\yakup\Desktop\avm\avm.entity\obj\Debug\netcoreapp3.1\avm.entity.csproj.CoreCompileInputs.cache
+C:\Users\yakup\Desktop\avm\avm.entity\obj\Debug\netcoreapp3.1\avm.entity.dll
+C:\Users\yakup\Desktop\avm\avm.entity\obj\Debug\netcoreapp3.1\avm.entity.pdb

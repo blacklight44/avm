@@ -79,3 +79,9 @@ C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\staticwebassets\avm
 C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\avm.webui.dll
 C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\avm.webui.pdb
 C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\avm.webui.genruntimeconfig.cache
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.business.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.data.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.entity.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.entity.pdb
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.data.pdb
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.business.pdb
