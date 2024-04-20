@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jrZNnjvrJEwfpD+uXN3bRdk6TYS6YAvYQXugOOuR/jpiaC8yc4jlDkRh/im2Vjqt3IYjjrCdiPF9oxsPOkNn7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yakup\\Desktop\\avm\\avm.webui\\avm.webui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yakup\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
+  ],
+  "logs": []
+}
