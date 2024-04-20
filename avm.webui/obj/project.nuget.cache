@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CzUTSMWN+nPsWOtu9wYpnq4JXwnEi3kNMokAeUNnX1L3/cHcH6/egnBJwoB64f9+tlotVZCFmZ/awzEKmahqOw==",
+  "dgSpecHash": "zOsSa3uf6yDuxX1rL6qZR1PjwtKCVJO8tsf06FEhKcyvOp2BohwMhrGmtebYvBMgHp0CT6K3oqk8YfBkJVSlaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\yakup\\Desktop\\avm\\avm.webui\\avm.webui.csproj",
   "expectedPackageFiles": [
@@ -108,7 +108,8 @@
     "C:\\Users\\yakup\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\yakup\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\yakup\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\yakup\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\yakup\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\yakup\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
   ],
   "logs": []
 }
