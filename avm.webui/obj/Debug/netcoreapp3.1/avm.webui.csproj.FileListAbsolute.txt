@@ -85,3 +85,8 @@ C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.entity.dll
 C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.entity.pdb
 C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.data.pdb
 C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\avm.business.pdb
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
