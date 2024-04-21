@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 // using avm.business.Abstract;
 // using avm.business.Concrete;
-// using avm.data.Abstract;
+ using avm.data.Abstract;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -37,7 +37,7 @@ namespace avm.webui
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ShopContext>(options=> options.UseMySql(_configuration.GetConnectionString("MySqlConnection")));
-             
+             services.AddScoped<IUnitOfWork,UnitOfWork>();
              services.AddControllersWithViews();
         }
 
