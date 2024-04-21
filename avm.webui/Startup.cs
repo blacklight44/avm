@@ -22,6 +22,8 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using avm.data.Concrete;
 using avm.entity;
+using avm.business.Abstract;
+using avm.business.Concrete;
 
 namespace avm.webui
 {
@@ -38,6 +40,12 @@ namespace avm.webui
         {
             services.AddDbContext<ShopContext>(options=> options.UseMySql(_configuration.GetConnectionString("MySqlConnection")));
              services.AddScoped<IUnitOfWork,UnitOfWork>();
+
+             services.AddScoped<IProductService,ProductManager>(); 
+            services.AddScoped<ICategoryService,CategoryManager>(); 
+            services.AddScoped<ICartService,CartManager>(); 
+            services.AddScoped<IOrderService,OrderManager>();
+
              services.AddControllersWithViews();
         }
 
@@ -53,10 +61,10 @@ namespace avm.webui
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+               endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern:"{controller=Home}/{action=Index}/{id?}"
+                );
             });
         }
     }
