@@ -18,10 +18,10 @@ namespace avm.webui.Controllers
         
         public IActionResult Index()
         {                                      
-                   var   product      =  new List<Product>();
-             product = _productService.GetAll();
+            var   p =  new List<Product>();
+             p = _productService.GetAll();
             
-            return View(product);
+            return View(p);
         }
 
         public IActionResult About()
