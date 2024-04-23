@@ -7,6 +7,6 @@ namespace avm.data.Abstract
 {
     public interface IProductRepository: IRepository<Product>
     {
-        
+        Product GetProductDetails(string url);
     }
 }

@@ -42,7 +42,11 @@ namespace avm.business.Concrete
             _unitofwork.Products.Update(entity);
             _unitofwork.Save();
         }
-
+       
+         public Product GetProductDetails(string url)
+        {
+            return _unitofwork.Products.GetProductDetails(url);
+        }
     
       
     }

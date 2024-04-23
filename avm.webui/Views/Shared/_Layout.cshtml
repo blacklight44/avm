@@ -16,7 +16,7 @@
 
     <main class="my-3">
         <div class="container">     
-
+       @RenderSection("Categories",false)
             @* @if(TempData["message"]!=null)
             {
                 <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using avm.data.Abstract;
 using avm.entity;
 namespace avm.data.Concrete
@@ -16,6 +17,16 @@ namespace avm.data.Concrete
         private ShopContext ShopContext
         {
             get {return context as ShopContext; }
+        }
+
+         public Product GetProductDetails(string url)
+        {
+                return ShopContext.Products
+                                .Where(i=>i.Url==url)
+                                .Include(i=>i.ProductCategories)
+                                .ThenInclude(i=>i.Category)
+                                .FirstOrDefault();
+
         }
     }
 }

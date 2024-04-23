@@ -111,3 +111,5 @@ C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\Properties\launchSe
 C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\avm.webui.csprojAssemblyReference.cache
 C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\staticwebassets\avm.webui.StaticWebAssets.xml
 C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Categories\Default.cshtml.g.cs
+C:\Users\yakup\Desktop\avm\avm.webui\bin\Debug\netcoreapp3.1\package.json
+C:\Users\yakup\Desktop\avm\avm.webui\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs

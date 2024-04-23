@@ -8,7 +8,8 @@ namespace avm.business.Abstract
 {
     public interface IProductService
     {
-          List<Product> GetAll();
+        Product GetProductDetails(string url);
+        List<Product> GetAll();
         bool Create(Product entity);
         void Update(Product entity);
         void Delete(Product entity);
