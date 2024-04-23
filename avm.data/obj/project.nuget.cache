@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dQTFZZeI59SgPKjUIPArS6bekh9pncM45wUpRnkuVI1T92JadDq7fjoisyZVZvDNB5NCh366l0IbB9Tejjv/5g==",
+  "dgSpecHash": "c62mufTho06FA4CnP6IW0/RX1vJdiEh7bbibbT4cUpM9++9HpBBW6mBQrjARXgRZj7rxIA4ZfurpuSztfuKBfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yakup\\Desktop\\avm\\avm.data\\avm.data.csproj",
   "expectedPackageFiles": [
@@ -112,7 +112,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "avm.data depends on Pomelo.EntityFrameworkCore.MySql (>= 3.1.3) but Pomelo.EntityFrameworkCore.MySql 3.1.3 was not found. An approximate best match of Pomelo.EntityFrameworkCore.MySql 3.2.0 was resolved.",
+      "message": "avm.data, Pomelo.EntityFrameworkCore.MySql (>= 3.1.3) öğesine bağımlı ancak Pomelo.EntityFrameworkCore.MySql 3.1.3 bulunamadı. Yaklaşık bir en iyi eşleşme olan Pomelo.EntityFrameworkCore.MySql 3.2.0 çözümlendi.",
       "libraryId": "Pomelo.EntityFrameworkCore.MySql",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

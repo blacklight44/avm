@@ -53,6 +53,13 @@ namespace avm.webui
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {     
             app.UseStaticFiles(); // wwwroot
+             app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory(),"node_modules")),
+                    RequestPath="/modules"                
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
